@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>Name: <input type="text" id="name" /></div>
+        <div>Age: <input type="text" id="age" /></div>
+        <div> City: <input type="text" id="city" /></div>
+        <button type="button" onclick="getData()">Submit</button>
+    </form>
+    <table>
+        <thead>
+            <th>name</th>
+            <th>age</th>
+            <th>city</th>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td>Sarah</td>
+                <td>8</td>
+                <td>Lahore</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
